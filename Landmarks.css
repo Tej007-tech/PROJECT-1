@@ -1,0 +1,200 @@
+body{
+    background-image: url("https://www.mynextescape.com/wp-content/uploads/2020/01/blur-_0017_iStock-502968024.jpg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    padding: 0;
+    margin: 0;
+    /* text-shadow: 0px 0px 10px black; */
+}
+
+nav{
+    color: white;
+    height: 80px;
+    background-image: linear-gradient(#0e1c26,#2a454b,#294861);
+}
+
+.navigation{
+    display: flex;
+    padding: 5px;
+    display: inline-flex;
+    margin-left: 130px;
+    font-size: larger;
+    
+}
+
+.navigation li a{
+    text-decoration: none ;
+    color: white; 
+    padding-right: 40px; 
+    margin-right: 160px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+.navigation li a:hover{
+    background-color: white;
+    color: black;
+}
+
+.footer{
+    background-image: linear-gradient(#0e1c26,#2a454b,#294861);
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.footer a{
+    color: red;
+}
+
+.downcontent{
+    display: flex;
+    display: inline-block;
+    font-size: 25px;
+    width: 100%;
+    margin-left: 100px;
+}
+
+.lake{
+    background: hsla(210, 90%, 80%, 1);
+
+background: linear-gradient(0deg, hsla(210, 90%, 80%, 1), hsla(212, 93%, 49%, 1));
+
+
+
+/* filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#9FCCFA", endColorstr="#0974F1", GradientType=1 ); */
+    width: 70%;
+    height: 500px;
+    margin-left: 200px;
+    padding: 50px;
+    margin-top: 30px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 30px black;
+}
+
+img{
+    box-shadow: 0px 0px 8px black;
+    margin: 10px;
+    border-radius: 15px;
+}
+.monument{
+    background: hsla(221, 45%, 73%, 1);
+
+background: linear-gradient(0deg, hsla(221, 45%, 73%, 1), hsla(220, 78%, 29%, 1));
+
+/* filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#9BAFD9", endColorstr="#103783", GradientType=1 ); */
+
+    padding: 50px;
+    width: 70%;
+    margin-left: 200px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 30px black;
+}
+
+.monument img{
+    height: 350px; 
+    margin-left: 150px;
+}
+
+.monument li{
+    font-size: 20px;
+}
+
+table{
+    border-collapse: collapse; 
+    border-color: white; 
+    text-align: center;
+    width: 100%;
+}
+
+b{
+    color: red;
+}
+
+.lakes{
+    height: 270px;
+
+}
+
+.tables{
+    background: hsla(213, 77%, 14%, 1);
+
+background: linear-gradient(0deg, hsla(213, 77%, 14%, 1), hsla(202, 27%, 45%, 1));
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#08203E", endColorstr="#557C93", GradientType=1 );
+
+    padding: 50px;
+    width: 70%;
+    margin-left: 195px;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+.headers{
+    background: hsla(332, 53%, 82%, 1);
+
+background: linear-gradient(0deg, hsla(332, 53%, 82%, 1), hsla(176, 57%, 89%, 1));
+
+/* filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#E9B7CE", endColorstr="#D3F3F1", GradientType=1 ); */
+    width: 90%;
+    margin-left: 50px;
+    height: 190px;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+@media screen and (max-width:700px) {
+    nav{
+        width: 170vh;
+        height: 20vh;
+        align-items: center;
+        align-content: center;
+        font-size: medium;
+    }
+
+    .headers{
+        width: 130vh;
+        font-size: large;
+        height: 25vh;
+        margin-left: 130px;
+    }
+
+    .monument{
+        width: 110vh;
+        margin-left: 200px;
+    }
+
+    .tables{
+        width: 100vh;
+        height: 40vh;
+        margin-left: 255px;
+        padding: 50px;
+        font-size: xx-large;
+    }
+
+    .lake{
+        width: 110vh;
+        margin-left: 210px;
+    }
+
+    .footer{
+        width: 170vh;
+        height: 60vh;
+        align-content: center;
+    }
+
+    .downcontent{
+        font-size: xx-large;
+        margin-left: 40px;
+    }
+
+}

@@ -1,0 +1,229 @@
+.image{
+    box-shadow: 0px 0px 5px 5px white;
+    margin: 10px;
+}
+
+body{
+    background-color: black;
+    background: hsla(120, 6%, 90%, 1);
+
+background: linear-gradient(0deg, hsla(120, 6%, 90%, 1), hsla(228, 75%, 16%, 1));
+
+
+    /* background-image: url("https://img.freepik.com/premium-photo/happy-republic-day-india-tricolor-flag_960782-41519.jpg"); */
+    /* background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Diwali_Festival.jpg"); */
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; */
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+nav{
+    color: white;
+    height: 80px;
+    background-image: linear-gradient(#0e1c26,#2a454b,#294861);
+}
+
+.navigation{
+    display: flex;
+    padding: 5px;
+    display: inline-flex;
+    margin-left: 190px;
+    font-size: larger;
+}
+
+.navigation li a{
+    text-decoration: none ;
+    color: white; 
+    padding-right: 40px; 
+    margin-right: 150px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+.navigation li a:hover{
+    background-color: white;
+    color: black;
+}
+
+.titles{
+    font-size: large;
+    text-align: center;
+}
+
+.footer{
+    background-image: linear-gradient(#0e1c26,#2a454b,#294861);
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.footer a{
+    color: red;
+}
+
+.downcontent{
+    display: flex;
+    display: inline-block;
+    font-size: 25px;
+    width: 100%;
+    margin-left: 100px;
+}
+
+header{
+    margin-left: 50px;
+}
+
+.title{
+    background-color: black;
+}
+
+.tables table{
+    background: rgb(153, 89, 119);
+
+background: linear-gradient(0deg, rgb(236, 2, 111), rgb(12, 236, 221));
+
+
+}
+
+.tables th{
+    background: hsla(298, 68%, 90%, 1);
+
+background: linear-gradient(0deg, rgb(210, 111, 213), rgb(248, 175, 103));
+
+
+}
+
+.traditional{
+    background-image: linear-gradient(to bottom right,#432371,#faae7b);
+    align-items: center;
+    padding: 30px; 
+    border-radius: 30px; 
+    margin-bottom: 50px;
+    margin-top: 50px;
+    width: 70%;
+    margin-left: 160px;
+    height: 75vh;
+    padding-left: 80px;
+    text-shadow: 5px white;
+    font-size: x-large;
+    box-shadow: 0px 0px 30px black;
+}
+
+.festival{
+    background-image: linear-gradient(to bottom right,#42047e,#07f49e);
+    align-items: center;
+    padding: 30px; 
+    border-radius: 30px; 
+    margin-bottom: 50px;
+    margin-top: 50px;
+    width: 70%;
+    margin-left: 155px;
+    height: 80vh;
+    padding-left: 80px;
+    text-shadow: 5px white;
+    font-size: x-large;
+    box-shadow: 0px 0px 30px black;
+}
+
+.tables{
+    background: hsla(18, 76%, 85%, 1);
+
+background: linear-gradient(0deg, hsla(18, 76%, 85%, 1), hsla(203, 69%, 84%, 1));
+    
+    padding: 70px;
+    width: 60%;
+    border-radius: 50px;
+    margin-left: 195px;
+}
+
+.tables table{
+    border-collapse: collapse;
+    border-color: rgb(242, 17, 17); 
+    width: 85%; 
+    margin-left: 0px; 
+    padding: 0px;
+}
+
+@media screen and (max-width:500px) {
+    *{
+        box-sizing: border-box;
+    }
+
+    .festival{
+        width: 120vh;
+        margin-left: 90px;
+        padding: 50px;
+    }
+
+    .traditional{
+        width: 120vh;
+        margin-left: 90px;
+        padding: 50px;
+    }
+
+    .tables{
+        width: 110vh;
+        margin-left: 130px;
+    }
+
+    .footer{
+        background-image: linear-gradient(#0e1c26,#2a454b,#294861);
+        color: white;
+        text-align: center;
+        width: 155vh;
+        height: 36vh;
+        align-items: center;
+        align-content: center;
+    }
+    
+    .footer a{
+        color: red;
+    }
+    
+    .downcontent{
+        display: flex;
+        display: inline-block;
+        font-size: 25px;
+        width: 100%;
+        margin-left: 50px;
+    }
+
+    .titles{
+        width: 140vh;
+    }
+
+    nav{
+        color: white;
+        height: 110px;
+        align-content: center;
+        align-items: center;
+        padding: 10px;
+        width: 155vh;
+        background-image: linear-gradient(#0e1c26,#2a454b,#294861);
+    }
+    
+    .navigation{
+        display: flex;
+        display: inline-flex;
+        margin-left: 150px;
+        font-size: larger;
+    }
+    
+    .navigation li a{
+        text-decoration: none ;
+        color: white; 
+        padding-right: 40px; 
+        margin-right: 140px;
+        background-color: black;
+        padding: 10px;
+        border-radius: 25px;
+        transition: 0.5s;
+    }
+}

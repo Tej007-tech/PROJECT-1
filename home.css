@@ -1,0 +1,171 @@
+
+body{
+    /* background-image: url("https://static.vecteezy.com/system/resources/thumbnails/026/672/824/small_2x/indian-flag-theme-independence-day-15th-august-celebration-background-free-vector.jpg"); */
+    background-image: linear-gradient(to bottom right,rgb(209, 176, 116),white,rgb(115, 167, 115));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+img{
+    border-radius: 20px;
+}
+
+nav{
+    color: white;
+    height: 90px;
+    background-image: linear-gradient(#0e1c26,#2a454b,#294861);
+}
+
+.navigation{
+    display: flex;
+    padding: 5px;
+    display: inline-flex;
+    margin-left: 00px;
+    font-size: larger;
+}
+
+.navigation li a{
+    text-decoration: none ;
+    color: white; 
+    padding-right: 40px; 
+    margin-right: 50px;
+    margin-left: 140px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+.navigation li a:hover{
+    background-color: white;
+    color: black;
+}
+
+.footer{
+    background-image: linear-gradient(#0e1c26,#2a454b,#294861);
+    color: white;
+}
+
+.downcontent{
+    margin-left: 140px;
+    display: flex;
+    display: inline-block;
+    font-size: 17px;
+}
+
+.downcontent a{
+    color: red;
+}
+
+.about{
+    background: hsla(197, 74%, 43%, 1);
+
+background: linear-gradient(0deg, hsla(197, 74%, 43%, 1) 0%, hsla(27, 81%, 58%, 1));
+
+
+
+/* filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1C90BF", endColorstr="#EB8A3D", GradientType=1 ); */
+    color: white;
+    padding: 30px;
+    width: 80%;
+    margin-left: 130px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: large;
+}
+
+.landmarks{
+    background: hsla(197, 74%, 43%, 1);
+
+background: linear-gradient(0deg,hsla(197, 74%, 43%, 1), hsla(27, 81%, 58%, 1));
+
+/* filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1C90BF", endColorstr="#EB8A3D", GradientType=1 ); */
+    color: white;
+    padding: 30px;
+    width: 80%;
+    margin-left: 130px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 50px;
+    font-size: large;
+    text-align: center;
+}
+
+.culture{
+    background: hsla(197, 74%, 43%, 1);
+
+background: linear-gradient(0deg, hsla(197, 74%, 43%, 1), hsla(27, 81%, 58%, 1));
+
+
+
+/* filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1C90BF", endColorstr="#EB8A3D", GradientType=1 ); */
+    color: white;
+    padding: 30px;
+    width: 80%;
+    margin-left: 130px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 50px;
+    font-size: large;
+    text-align: center;
+}
+
+img{
+    box-shadow: 10px 3px 5px black;
+    transition: 1s;
+}
+
+img:hover{
+    scale: 1.5;
+}
+
+.welcome{
+    background: hsla(332, 53%, 82%, 1);
+
+background: linear-gradient(0deg, hsla(332, 53%, 82%, 1), hsla(176, 57%, 89%, 1));
+
+
+
+/* filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#E9B7CE", endColorstr="#D3F3F1", GradientType=1 ); */
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    text-align: center;
+    font-size: large;
+    width: 70%;
+    border-radius: 30px;
+}
+
+@media screen and (max-width:700px) {
+    nav{
+        width: 160vh;
+    }
+
+    .navigation li a{
+        margin-left: 30px;
+    }
+
+    footer{
+        width: 180vh;
+    }
+
+    .welcome{
+        width: 120vh;
+        margin-left: 250px;
+    }
+
+    .about{
+        width: 290%;
+    }
+
+    .landmarks{
+        width: 290%;
+    }
+
+    .culture{
+        width: 290%;
+    }
+}

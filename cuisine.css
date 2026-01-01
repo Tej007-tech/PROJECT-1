@@ -1,0 +1,175 @@
+nav{
+    color: white;
+    height: 100px;
+    background-image: linear-gradient(#432371,#714674,#aa3d56);
+}
+
+.navigation{
+    display: flex;
+    padding: 5px;
+    display: inline-flex;
+    margin-left: 150px;
+    font-size: larger;
+}
+
+.navigation li a{
+    text-decoration: none ;
+    color: white; 
+    padding-right: 40px; 
+    margin-right: 160px;
+    background-color: rgb(145, 61, 61);
+    padding: 10px;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+.navigation li a:hover{
+    background-color: white;
+    color: black;
+}
+
+body{
+    /* background-image: url("https://i.pinimg.com/originals/36/db/11/36db11babfcfa05441fe19440759bbff.jpg"); */
+    background-image: linear-gradient(#810576,#fcc1cf);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+.footer{
+    background-image: linear-gradient(#0e1c26,#2a454b,#294861);
+    color: white;
+    text-align: center;
+}
+
+.footer a{
+    color: red;
+}
+
+.downcontent{
+    display: flex;
+    display: inline-block;
+    font-size: 25px;
+
+}
+
+.title{
+    text-align: center;
+    font-size: 30px;
+}
+
+.northindia{
+    background-color: black;
+    width: 80%;
+    border-radius: 50px;
+    font-size: 26px;
+    padding: 35px;
+    height: 700px;
+    margin-left: 120px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-image: linear-gradient(#f7c0ec,#a7bdea);
+}
+.southindia{
+    background-color: black;
+    width: 80%;
+    border-radius: 50px;
+    font-size: 26px;
+    margin-bottom: 30px;
+    padding: 35px;
+    height: 700px;
+    margin-left: 120px;
+    background-image: linear-gradient(#f7c0ec,#a7bdea);
+}
+.gulab{
+    background-color: black;
+    width: 80%;
+    border-radius: 50px;
+    font-size: 26px;
+    padding: 35px;
+    height: 700px;
+    margin-left: 120px;
+    background-image: linear-gradient(#f7c0ec,#a7bdea);
+}
+
+.gulab b{
+    color: #C40234;
+}
+
+.northindia b{
+    color: #C40234;
+}
+
+.southindia b{
+    color: #C40234;
+}
+
+h2{
+    color: #FF004F;
+}
+
+h1{
+    color: #FA8072;
+}
+
+.images{
+    width: 40%;
+
+}
+
+img{
+    border-radius: 20px;
+    height: 280px;
+    margin: 30px;
+    box-shadow: 0px 0px 10px black;
+}
+
+@media screen and (max-width:700px) {
+    nav{
+        width: 185vh;
+        
+    }    
+
+    .navigation li a{
+        margin-right:50px ;
+        margin-left:120px ;
+    }
+
+    .title{
+        width: 100vh;
+        margin-left: 400px;
+    }
+
+    .northindia{
+        width: 350%;
+        font-size: xx-large;
+        height: 90vh;
+    }
+
+    .southindia{
+        width: 350%;
+        font-size: xx-large;
+        height: 90vh;
+    }
+
+    .gulab{
+        width: 350%;
+        font-size: xx-large;
+        height: 90vh;
+    }
+
+    footer{
+        width: 190vh;
+        height: 47.7vh;
+        align-content: center;
+    }
+
+    .downcontent{
+        font-size: xx-large;
+    }
+}
